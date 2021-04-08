@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-color: #6650FF;
+    display: flex;
+    color: #FFFFFF;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding:0 50px;
+    display: flex;
+    align-items: center;
+}
+.container1{
+display: flex;
+height: 500px;
+}
+
+.box1{
+    width: 28%;
+}
+.logo img{
+    height: 60px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    margin:0 10px;  
+}
+.container2{
+display: flex;
+height: 500px;
+}
+.box3{
+    width: 28%;
+}
+.box4{
+    width: 28%;
+}
+.nav li{
+    margin:0 10px;
+}
+.nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.text{
+    padding-top: 170px;
+    margin-right: 8%;
+    width: 28%;
+}   
+.box1 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 100px;
+}
+.box2 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 100px;
+}
+.box2{
+    width: 28%;
+}
+.box3 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 100px;
+}
+.text input{
+    background-color:#6650FF;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: 0;
+}
+.box4 img{
+    height: 300px;
+    margin: 100px;
+    margin-left: 97px;
+}
+footer {
+    height: 80px;
+    background-color: #292148;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+footer .call img {
+    width: 30px;
+}
+
+footer .call {
+    display: flex;
+    width: 230px;
+    justify-content: space-evenly;
+    align-items: center;
+}
